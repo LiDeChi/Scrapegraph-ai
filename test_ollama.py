@@ -14,11 +14,10 @@ graph_config = {
     "verbose": True,
     "headless": False,
 }
-
 # 创建 SmartScraperGraph 实例
 smart_scraper_graph = SmartScraperGraph(
-    prompt="找出公司做什么的，公司名称和联系邮箱。",
-    source="https://scrapegraphai.com/",
+    prompt="找出近一个月来，jackaroo游戏在appmagic排行榜上的排名，并列出排名变化情况。",
+    source="https://appmagic.rocks/top-charts/apps",
     config=graph_config
 )
 
